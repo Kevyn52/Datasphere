@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datasphere.com</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/83a651db42.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <nav>
+                <img src="logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <strong>
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#services'>Services</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                    </strong>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!--<p>Web Designer</p>-->
+                <h1>"Designing digital experiences<br>
+                     that <span class="realistic-marker-highlight">CAPTIVATE
+                    </span> and <span>INSPIRE</span>."</h1>
+            </div>
+        </div>
+
+        <!--about-->
+        
+        <div id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an experienced web developer with a passion for creating innovative and visually stunning websites.<br>
+                        With years of experience in the industry, I have a deep understanding of web development and the latest<br>
+                        technologies, and languages such as HTML, CSS, and JavaScript. Whether you're looking to build a new<br>
+                        website or enhance an existing one, 𝗜 𝗰𝗮𝗻 𝗱𝗲𝗹𝗶𝘃𝗲𝗿 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝘁𝗵𝗮𝘁 𝗲𝘅𝗰𝗲𝗲𝗱 𝘆𝗼𝘂𝗿 𝗲𝘅𝗽𝗲𝗰𝘁𝗮𝘁𝗶𝗼𝗻𝘀.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><strong>Web Development</strong></span><br>Designing Web interfaces</li>
+                            <li><span><strong>Bugs Fixing</strong></span><br>Improving overall experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><strong>Working Experience</strong></span><br>Informations here</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design <br><br> <i class="fas fa-code"></i></h2>
+                <p>I'm a passionate and experienced web designer who loves creating clean,
+                     modern, and user-friendly websites that help businesses achieve their 
+                     goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Bugs Fixing <br><br> <i class="fas fa-bug"></i></h2>
+                <p>It is an essential part of software development and maintenance, 
+                    as it helps to ensure that products are reliable and function as 
+                    intended.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="test.jpg">
+                <div class="layer">
+                    <h3>Title</h3>
+                    <p>Detail information here</p>
+                    <a href="#"><i class="fas fa-external-link-square-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="test.jpg">
+                <div class="layer">
+                    <h3>Title</h3>
+                    <p>Detail information here</p>
+                    <a href="#"><i class="fas fa-external-link-square-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="test.jpg">
+                <div class="layer">
+                    <h3>Title</h3>
+                    <p>Detail information here</p>
+                    <a href="#"><i class="fas fa-external-link-square-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1><br><br>
+                <p><i class="fas fa-paper-plane"></i>dr.kevin913@gmail.com</p><br><br>
+                <p><i class="fas fa-phone"></i>(+886) 975-118-792</p>
+                <!--<div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>-->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message" rows="8"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023 "DATASPHERE" All rights reserved.</p>
+    </div>
+</div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById(sidemenu)
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+            
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbytxldkem5fj-cJP306wiYrAqsOz8fImvp_4HEWzRQjSQX4zgtrWW0GH9iKi_Updg3k4Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+
+    </body>
+</html>
