@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: black;
     color: #fff;
 }
 #header{
@@ -325,11 +325,28 @@ form .btn2{
 .copyright i{
     color: #00c8ff;
 }
-/*--mobile screen*/
+/*--scrollbar--*/
+::-webkit-scrollbar {
+    width: 0.5em;
+    height: 1em;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,#00c8ff);
+    border: linear-gradient(transparent,#00c8ff);
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 100%);
+}
+/*--mobile screen--*/
 nav .fas{
     display: none;
 }
-
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(pexels2.jpg);
