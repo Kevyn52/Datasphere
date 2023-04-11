@@ -556,11 +556,6 @@ nav .fas{
     .contact-left .contact-right{
         flex-basis: 100%;
     }
-    .sub-title{
-        font-size: 60px;
-        font-weight: 600;
-        color: #fff;
-    }
     .contact-right form{
         width: 150%;
     }
