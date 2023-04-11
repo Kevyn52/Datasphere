@@ -207,6 +207,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    padding-bottom: 400px;
 }
 .work{
     border-radius: 10px;
@@ -280,6 +281,7 @@ nav ul li a:hover::after{
 
 .contact-left{
     flex-basis: 35%;
+    padding-top: 400px;
 }
 .contact-right{
     flex-basis: 60%;
