@@ -566,6 +566,7 @@ nav .fas{
     }
     .contact-right form{
         width: 150%;
+        padding: 0px;
     }
     .copyright{
         font-size: 14px;
