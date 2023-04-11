@@ -104,24 +104,24 @@ body{
         height: 150px;
         margin: 10px;
         border-radius: 10px;
-        background: url(valento1.png);
+        background: url(food1.png);
         background-size: cover;
         background-position: center;
         position: relative;
         transition: width 0.5s;
     }
     .img-box:nth-child(2){
-        background: url(valento2.png);
+        background: url(food2.png);
         background-size: cover;
         background-position: center;
     }
     .img-box:nth-child(3){
-        background: url(valento3.png);
+        background: url(food3.png);
         background-size: cover;
         background-position: center;
     }
     .img-box:nth-child(4){
-        background: url(valento4.png);
+        background: url(food4.png);
         background-size: cover;
         background-position: center;
     }
